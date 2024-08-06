@@ -18,6 +18,7 @@ public class Assignment4 {
 		System.out.println(driver.findElement(By.tagName("h3")).getText());
 		driver.switchTo().window(parentId);
 		System.out.println(driver.findElement(By.xpath("//div[@class='example']/h3")).getText());
+		System.out.println("ABC");
 	}
 
 }
